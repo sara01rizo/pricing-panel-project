@@ -23,6 +23,14 @@ html {
   box-sizing: border-box;
 }
 
+.pricing-features ul {
+  text-decoration: none;
+}
+
+.pricing-features li {
+  text-decoration: none;
+}
+
 .panel {
   background-color: white;
   border-radius: 10px;
@@ -30,4 +38,21 @@ html {
   width: 50%;
   max-width: 960px;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
 }
