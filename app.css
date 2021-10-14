@@ -14,25 +14,45 @@ h5 {
   font-family: "Roboto", sans-serif;
 }
 
-p {
+ul {
   font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+
+element.style {
+  margin-left: 0px;
+  /* set to 0 if your not using a list-style-type */
+  padding-left: 20px;
 }
 
 html {
   box-sizing: border-box;
 }
 
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
 .pricing-features ul {
-  padding: 0;
-  margin: 0;
+  margin-left: 0px;
+  padding-left: 5px;
 }
 
 .pricing-features li {
   list-style: none;
   text-align: center;
   align-items: center;
-  margin: 0;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
 }
 
 .panel {
@@ -57,7 +77,32 @@ html {
   border-bottom: none;
 }
 
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
 .pricing-img {
   margin-bottom: 25px;
   max-width: 100%;
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-price {
+  color: #016ff9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
 }
